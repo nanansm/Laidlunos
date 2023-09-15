@@ -12,7 +12,6 @@ form.addEventListener('submit', e => {
   //.then(() => { window.location.reload(); })
   .catch(error => console.error('Masukan Data Kamu dulu yah!', error.message)) })
 
-
 function towa()
 {
    window.location.href="https://api.whatsapp.com/send?phone=6281122332060&text=Halo%20Laidlunos,%20aku%20mau%20claim%20Discount%20Produk%20Simple%20Flek%20Bundle%20yah!";
