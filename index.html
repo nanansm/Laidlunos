@@ -748,9 +748,8 @@
                                 <p  style="color: red;"><b>ISI DATA KAMU DISINI!</b></p>
                             </div>
                         </div>
-
                             <div class="wow fadeInUp" data-wow-delay=".5s">
-                                <form method="post" action="" name="lp-data">
+                                <form method="post" onsubmit="towa()" action="" name="lp-data">
                                     <div class="mb-3" style="border-style: solid; border-radius: 20px;">
                                         <input type="text" name="fname" required placeholder="Nama">
                                     </div>
@@ -758,10 +757,10 @@
                                         <input type="tel" name="wnumber" required placeholder="Whatsapp Number">
                                     </div>
                                     <div class="d-grid">
-                                        <input type="submit" name="submit" class="lab-btn border-0" value="Beli Sekarang" id="submit" onclick="towa();"  style="background-color: red;">
+                                        <input type="submit" name="submit" class="lab-btn border-0" value="Beli Sekarang" id="submit" style="background-color: red;">
                                     </div>
                                 </form>
-                            </div>
+                                </div>
                         </div>
                     </div>
                 </div>
@@ -1193,23 +1192,6 @@
     <script src="assets/js/functions.js"></script>
     <script src="assets/js/gsheet.js"></script>
 
-    <!-- <script>
-        function gotowhatsapp() {
-
-            var name = document.getElementById("name").value;
-            var phone = document.getElementById("phone").value;
-            var email = document.getElementById("email").value;
-            var service = document.getElementById("service").value;
-
-            var url = "https://wa.me/628112131496?text="
-                + "Name: " + name + "%0a"
-                + "Phone: " + phone + "%0a"
-                + "Email: " + email + "%0a"
-                + "Service: " + service;
-
-            window.open(url, '_blank').focus();
-        }
-    </script>-->
 
 </body>
 </html>
