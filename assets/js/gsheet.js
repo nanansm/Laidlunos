@@ -13,7 +13,6 @@ form.addEventListener('submit', e => {
 //function towa() {
   // window.location.href="https://api.whatsapp.com/send?phone=6281122332060&text=Halo%20Laidlunos,%20aku%20mau%20claim%20Discount%20Produk%20Simple%20Flek%20Bundle%20yah!"; }
 
-  
    function towa() {
     var fname = document.forms['lp-data']['fname'].value;
     var wnumber = document.forms['lp-data']['wnumber'].value;

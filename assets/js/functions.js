@@ -280,7 +280,7 @@
     
     
 
-    //contact form js
+//contact form js
     // $(function () {
     //     var form = $('#contact-form');
     //     var formMessages = $('.form-message');
